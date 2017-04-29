@@ -1,0 +1,10 @@
+<h1>List Of Articles here.</h1>
+
+<div class="articles">
+  <div class="article">
+    <h3><%= @article.title %></h3>
+    <h3><%= @article.body %></h3>
+    <%= link_to "Back", articles_path %>
+    <%= link_to "Edit", edit_article_path(@article) %>
+  </div>
+</div> 
